@@ -43,7 +43,6 @@
     self.accountField.centerY = accountKeyLabel.centerY;
     [self addSubview:self.accountField];
     self.accountField.placeholder = @"Phone number/Email";
-    self.accountField.text = @"18268851053";
     
     UILabel *pwdKeyLabel = [self keyLabel];
     pwdKeyLabel.text = @"Password：";
@@ -54,7 +53,6 @@
     [self addSubview:self.passwordField];
     self.passwordField.placeholder = @"pasword";
     self.passwordField.secureTextEntry = YES;
-    self.passwordField.text = @"s12345678";
     
     switch (currentType) {
         case TYLoginAndRegisterViewTypeLogin:
